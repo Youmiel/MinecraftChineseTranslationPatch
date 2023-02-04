@@ -1,18 +1,22 @@
+import zipfile
 import json
 import os
 import shutil
 
-from setting import BUILD_DIR, LANG_NAME, PACK_RESOURCE_DIR, PATCH_DIR
-from util import check_and_write_file, file_operation, scan_folder
+from setting import BUILD_DIR, LANG_NAME, PACK_RESOURCE_DIR, PATCH_DIR, PACK_NAME
+from util import check_and_write_file, file_operation, scan_folder, check_before_create
 
 LANG_PATH = os.path.join('assets', 'minecraft', 'lang')
 
 
 def run():
     clean_build_path(BUILD_DIR)
+    print('==== copying resources =====')
     copy_resource(PACK_RESOURCE_DIR, BUILD_DIR)
+    print('==== merging patches =====')
     merge_json(PATCH_DIR, BUILD_DIR)
-    pass
+    print('==== building =====')
+    build_pack(BUILD_DIR, PACK_NAME)
 
 
 def clean_build_path(build_path: str):
@@ -43,9 +47,14 @@ def copy_resource(source_dir: str, target_dir: str):
             shutil.copytree(file_name, target_file_name)
 
 
-def build_pack():
-    pass
+def build_pack(build_path: str, pack_name: str):
+    file_list = scan_folder(build_path, log=True)
 
+    pack_path = check_before_create(os.path.join(build_path, pack_name), overwrite=True)
+    with zipfile.ZipFile(pack_path, mode='w') as zip:
+        for filename in file_list:
+            zip.write(filename, os.sep.join(filename.split(os.sep)[1:]))
+        zip.printdir()
 
 if __name__ == '__main__':
     run()

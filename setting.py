@@ -6,3 +6,4 @@ PACK_RESOURCE_DIR = 'resource'
 PATCH_DIR = 'patch'
 
 LANG_NAME = 'zh_cn'
+PACK_NAME = 'ChineseTranslationPatch.zip'
