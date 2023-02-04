@@ -1,8 +1,9 @@
 import json
 import os
 
-from util import scan_folder, get_encoding, check_before_create
 from setting import INPUT_DIR, JSON_DECODE_DIR
+from util import check_before_create, get_encoding, scan_folder
+
 
 def run():
     json_file_list = scan_folder(INPUT_DIR, file_ext='.json', log=True)
@@ -12,8 +13,7 @@ def run():
         with open(json_file_path, 'r', encoding=encoding_type) as file:
             json_obj = json.load(file)
 
-        folder_names = json_file_path.split(os.sep)[1:]
-        folder_names.insert(0, JSON_DECODE_DIR)
+        folder_names = [JSON_DECODE_DIR, *json_file_path.split(os.sep)[1:]]
         new_path = os.sep.join(folder_names)
         print(new_path)
         new_path = check_before_create(new_path, overwrite=True)
