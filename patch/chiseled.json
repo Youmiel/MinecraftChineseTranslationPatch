@@ -1,0 +1,17 @@
+{
+    "advancements.adventure.read_power_from_chiseled_bookshelf.description": "使用红石比较器获取雕纹书架的信号强度",
+    "advancements.adventure.read_power_from_chiseled_bookshelf.title": "知识就是力量",
+    "subtitles.chiseled_bookshelf.insert": "书：被放入",
+    "subtitles.chiseled_bookshelf.insert_enchanted": "附魔书：被放入",
+    "subtitles.chiseled_bookshelf.take": "书：被取出",
+    "subtitles.chiseled_bookshelf.take_enchanted": "附魔书：被取出",
+    "block.minecraft.chiseled_bookshelf": "雕纹书架",
+    
+    "block.minecraft.chiseled_deepslate": "錾制深板岩",
+    "block.minecraft.chiseled_nether_bricks": "錾制下界砖块",
+    "block.minecraft.chiseled_polished_blackstone": "錾制磨制黑石",
+    "block.minecraft.chiseled_quartz_block": "錾制石英块",
+    "block.minecraft.chiseled_red_sandstone": "錾制红砂岩",
+    "block.minecraft.chiseled_sandstone": "錾制砂岩",
+    "block.minecraft.chiseled_stone_bricks": "錾制石砖"
+}

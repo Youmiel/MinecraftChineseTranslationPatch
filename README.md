@@ -1,7 +1,7 @@
 # Minecraft Chinese Translation Patch
 
-Chinese translation based on personal flavor.
-我喜欢这么翻译。
+Chinese translation based on personal flavor. <br>
+千金难买爷乐意。
 
 ## Note
 
