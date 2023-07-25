@@ -88,7 +88,7 @@ def check_and_write_file(path: str, content: Union[str, bytes], overwrite: bool 
         with open(actual_path, 'bw') as bin_file:
             bin_file.write(content)
     elif type(content) is str:
-        with open(actual_path, 'w') as file:
+        with open(actual_path, 'w', encoding='utf8') as file:
             file.write(content)
     else:
         print('Unknown content.')
