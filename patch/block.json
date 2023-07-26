@@ -1,6 +1,17 @@
 {
-    "block.minecraft.moss_carpet": "苔藓地毯",
     "block.minecraft.bamboo_mosaic": "拼花竹板",
     "block.minecraft.bamboo_mosaic_slab": "拼花竹台阶",
-    "block.minecraft.bamboo_mosaic_stairs": "拼花竹楼梯"
+    "block.minecraft.bamboo_mosaic_stairs": "拼花竹楼梯",
+
+    "block.minecraft.smooth_stone_slab": "平滑石台阶",
+    "block.minecraft.stone_button": "石按钮",
+    "block.minecraft.stone_pressure_plate": "石压力板",
+    "block.minecraft.stone_slab": "石台阶",
+    "block.minecraft.stone_stairs": "石楼梯",
+
+    "block.minecraft.moss_carpet": "苔藓地毯",
+    "block.minecraft.hay_block": "干草捆",
+    "block.minecraft.mycelium": "菌土",
+    "block.minecraft.warped_nylium": "诡异菌岩",
+    "block.minecraft.crimson_nylium": "绯红菌岩"
 }
