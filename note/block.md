@@ -22,8 +22,8 @@
 
 - [Minecraft 1.20游戏新内容简体中文译名公示 1](https://t.bilibili.com/721741070699855877)
 - [Minecraft 1.20游戏新内容简体中文译名公示 2](https://www.bilibili.com/opus/721741070699855877)
-- [Chiseled Bookshelf 中文译名意见征集 - 旧](https://www.bilibili.com/opus/719720645071470693)
-- [Chiseled Bookshelf 中文译名意见征集 - 新](https://www.bilibili.com/opus/719444414236196889)
+- [Chiseled Bookshelf 中文译名意见征集 - 新](https://www.bilibili.com/opus/719720645071470693)
+- [Chiseled Bookshelf 中文译名意见征集 - 旧](https://www.bilibili.com/opus/719444414236196889)
 - [凿子_百度百科](https://baike.baidu.com/item/%E5%87%BF%E5%AD%90)
 - [錾子_百度百科](https://baike.baidu.com/item/%E9%8C%BE%E5%AD%90)
 - [雕刻_百度百科](https://baike.baidu.com/item/%E9%9B%95%E5%88%BB)
@@ -59,6 +59,8 @@
 > 人家写标准是为了告诉你现实生活中哪些物品属于《竹马赛克 LY/T 3277-2021》的管辖范围，并且告诉你竹马赛克制品该怎么试验、检验以及标志、包装、运输和贮存。不是告诉你见到 Mosaic 就翻译成马赛克就行了。
 > 
 > 按照竹马赛克支持者万物翻译抄 LY/T 3277-2021 的理论，竹嵌纹（花叶）病毒（Bamboo mosaic virus）应该翻译成竹马赛克病毒。著名的烟草花叶病毒（tobacco mosaic virus）应该翻译成烟草马赛克病毒。
+
+> 笔者注：就目前几次投票来看，发起投票者态度是否端正值得怀疑，Bamboo Mosaic 没给过现实中的对照物，就对着一本行业标准死磕，然后口口声声在那说“有现成词就不要自造了”；Chiseled Bookshelf 投票又因为选项设置不合理分了先后两次，那么多选项还只给选一个，起名理由也不给；后续译名小修小改又没见发投票了，所以到底看没看大众态度呢？要知道不是每个人都那么闲，能在不给直链的情况下一路摸索到 Crowdin 投票的。说到底不参与 wiki 编辑和译名翻译的玩家们就是译名确定不下来的时候拿来利用的手段罢了，依靠残缺的信息和有限的交流，普通玩家只是被引导着选择了发起投票者想选的译名。
 
 ### **Bambooc Mosaic 是个什么**
 
